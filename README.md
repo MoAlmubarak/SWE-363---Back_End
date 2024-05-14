@@ -145,4 +145,4 @@ Ensure that MongoDB is running and accessible.
 
 ## Author
 
-This backend API is developed and maintained by Mohammed Almubarak
+This backend API is developed and maintained by Mohammed and Hassan
