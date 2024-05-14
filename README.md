@@ -135,10 +135,10 @@ const Product = mongoose.model("Product", {
 
 ## Running the Server
 
-To run the server, execute the following command:
+To run, execute the following command:
 
 ```
-node server.js
+node /index.js
 ```
 
 Ensure that MongoDB is running and accessible.
