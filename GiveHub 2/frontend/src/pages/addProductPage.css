@@ -1,0 +1,351 @@
+.add-product-page .give-hub {
+  margin: 24px 14px 28px 0;
+  display: inline-block;
+  width: 415px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: var(--space-cadet, #17183B);
+}
+.add-product-page .home {
+  margin-right: 8px;
+  width: 74px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.add-product-page .add-product {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.add-product-page .frame-28 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.add-product-page .about-us {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.add-product-page .support {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.add-product-page .account {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.add-product-page .menu {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 490.4px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .search {
+  margin: 28px 0;
+  width: 24px;
+  height: 24px;
+}
+.add-product-page .divider {
+  background: var(--french-grey, #D1D1D8);
+  width: 1px;
+  height: 80px;
+}
+.add-product-page .shopping-cart {
+  margin: 28px 0;
+  width: 24px;
+  height: 24px;
+}
+.add-product-page .container-1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  width: 129px;
+  box-sizing: border-box;
+}
+.add-product-page .container {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1360px;
+  box-sizing: border-box;
+}
+.add-product-page .rectangle-3 {
+  background: var(--french-grey, #D1D1D8);
+  width: 1440px;
+  height: 1px;
+}
+.add-product-page .header {
+  margin-bottom: 71.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.add-product-page .products-details {
+  margin: 0 0px 24px 0px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 22.5px;
+  line-height: 1.333;
+  color: var(--space-cadet, #17183B);
+}
+.add-product-page .placeholder {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--cool-grey, #A2A3B1);
+}
+.placeholder {
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  color: #689BA0;
+}
+.add-product-page .coupon-code {
+  border-radius: 1.9px;
+  border: 0.9px solid var(--french-grey, #D1D1D8);
+  margin-bottom: 23px;
+  padding: 14.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .placeholder-1 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--cool-grey, #A2A3B1);
+}
+.placeholder-1 {
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  color: #689BA0;
+}
+.add-product-page .coupon-code-1 {
+  border-radius: 1.9px;
+  border: 0.9px solid var(--french-grey, #D1D1D8);
+  margin-bottom: 23px;
+  padding: 14.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .placeholder-2 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--cool-grey, #A2A3B1);
+}
+.placeholder-2 {
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  color: #689BA0;
+}
+.add-product-page .coupon-code-2 {
+  border-radius: 1.9px;
+  border: 0.9px solid var(--french-grey, #D1D1D8);
+  margin-bottom: 23px;
+  padding: 14.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .placeholder-3 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--cool-grey, #A2A3B1);
+}
+.placeholder-3 {
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  color: #689BA0;
+}
+.add-product-page .coupon-code-3 {
+  border-radius: 1.9px;
+  border: 0.9px solid var(--french-grey, #D1D1D8);
+  margin-bottom: 23px;
+  padding: 14.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .placeholder-4 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--cool-grey, #A2A3B1);
+}
+.placeholder-4 {
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.333;
+  color: #689BA0;
+}
+.add-product-page .coupon-code-4 {
+  border-radius: 1.9px;
+  border: 0.9px solid var(--french-grey, #D1D1D8);
+  padding: 14.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .total {
+  margin: 0 0.3px 23px 0;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .document-upload {
+  width: 21.7px;
+  height: 21.7px;
+}
+.add-product-page .icon-frame {
+  border-radius: 45.3px;
+  background: #F5F5F5;
+  margin: 0 0 10.9px 6.7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 9.1px;
+  width: 39.8px;
+  height: 39.8px;
+  box-sizing: border-box;
+}
+.add-product-page .text-1 {
+  margin-right: 12.4px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 12.7px;
+  color: #3AA39F;
+}
+.add-product-page .text {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 12.7px;
+  color: #353535;
+}
+.add-product-page .action {
+  margin-bottom: 4.6px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .supporting-text {
+  margin-left: 6.7px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 10.9px;
+  color: #353535;
+}
+.add-product-page .text-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.add-product-page .file-upload-base {
+  border-radius: 1.7px;
+  border: 0.9px dashed #CACACA;
+  background: #FFFFFF;
+  margin-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13.6px 0;
+  width: 297px;
+  box-sizing: border-box;
+}
+.add-product-page .button {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  line-height: 1.25;
+  color: var(--white, #FFFFFF);
+}
+.add-product-page .proceed {
+  border-radius: 3.8px;
+  background: var(--verdigris, #3AA39F);
+  margin-right: 0.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 14.9px 17.8px 14.9px 0;
+  width: 296.7px;
+  box-sizing: border-box;
+}
+.add-product-page .order-summary {
+  border-radius: 1.9px;
+  border: 0.9px solid var(--french-grey, #D1D1D8);
+  background: var(--white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  padding: 29.1px 28.8px 29.1px 29.1px;
+  box-sizing: border-box;
+}
+.add-product-page .group-9 {
+  border-radius: 1.9px;
+  margin-left: 0.8px;
+  box-sizing: border-box;
+}
+.add-product-page {
+  background: var(--white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70.1px;
+  width: 1440px;
+  box-sizing: border-box;
+}

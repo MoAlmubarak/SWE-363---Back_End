@@ -1,0 +1,361 @@
+.product-page .give-hub {
+  margin: 24px 14px 28px 0;
+  display: inline-block;
+  width: 410px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .home {
+  margin-right: 8px;
+  width: 74px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .add-products {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .frame-28 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.product-page .about-us {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .support {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .account {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .menu {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 499.4px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.product-page .search {
+  margin: 28px 0;
+  width: 24px;
+  height: 24px;
+}
+.product-page .divider {
+  background: var(--french-grey, #D1D1D8);
+  width: 1px;
+  height: 80px;
+}
+.product-page .shopping-cart {
+  margin: 28px 0;
+  width: 24px;
+  height: 24px;
+}
+.product-page .container-2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  width: 129px;
+  box-sizing: border-box;
+}
+.product-page .container-1 {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1360px;
+  box-sizing: border-box;
+}
+.product-page .rectangle-3 {
+  background: var(--french-grey, #D1D1D8);
+  width: 1440px;
+  height: 1px;
+}
+.product-page .header {
+  margin-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.product-page .back {
+  margin: 0 0px 48px 0px;
+  align-self: flex-start;
+  width: 24px;
+  height: 24px;
+}
+.product-page .chair {
+  opacity: 0.4;
+  margin: 0.5px 12.5px 0 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .container {
+  margin: 0 8.2px 0.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .green-fancy-chair-1 {
+  margin-top: 0.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .breadcrumbs {
+  margin-bottom: 52.5px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.product-page .green-fancy-chair {
+  margin-bottom: 48px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.273;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .the-gently-curved-lines-accentuated-by-sewn-details-are-kind-to-your-body-and-pleasant-to-look-at-also-theres-atilt-and-height-adjusting-mechanism-thats-built-to-outlast-years-of-ups-and-downs {
+  margin-bottom: 81px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .button-3 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 1.25;
+  color: var(--white, #FFFFFF);
+}
+.product-page .button-1 {
+  border-radius: 4px;
+  background: var(--verdigris, #3AA39F);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px 8.5px 16px 0;
+  width: 162px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.product-page .group-2 {
+  border-radius: 4px;
+  margin-bottom: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  width: 162px;
+  box-sizing: border-box;
+}
+.product-page .dhahran-available {
+  margin-bottom: 59px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--space-cadet, #17183B);
+}
+.product-page .vector {
+  width: 20.9px;
+  height: 18.2px;
+}
+.product-page .heart {
+  margin: 1px 17.5px 0.8px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20.9px;
+  height: 18.2px;
+  box-sizing: border-box;
+}
+.product-page .button-2 {
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Display', 'Roboto Condensed';
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 1.25;
+  color: var(--verdigris, #3AA39F);
+}
+.product-page .button {
+  border-radius: 4px;
+  margin: 0 1.5px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.product-page .group-3 {
+  margin: 0 281.5px 2px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.product-page .meryl-lounge-chair-teal-31 {
+  mix-blend-mode: darken;
+  background: url('../assets/images/img.png') 50% / cover no-repeat, url('../assets/images/img.png') 50% / cover no-repeat, url('../assets/images/img.png') 50% / cover no-repeat;
+  width: 360px;
+  height: 461px;
+}
+.product-page .product-image {
+  margin: 0 0 47px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 360px;
+  height: 461px;
+  box-sizing: border-box;
+}
+.product-page .rectangle-2 {
+  border-radius: 5px;
+  background: url('../assets/images/rectangle21.jpeg') 50% / cover no-repeat;
+  width: 88px;
+  height: 88px;
+}
+.product-page .img-1 {
+  border-radius: 5px;
+  border: 2px solid #3AA39F;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+  width: 104px;
+  height: 104px;
+  box-sizing: border-box;
+}
+.product-page .rectangle-4 {
+  border-radius: 5px;
+  background: url('../assets/images/rectangle41.jpeg') 50% / cover no-repeat;
+  width: 88px;
+  height: 88px;
+}
+.product-page .img-2 {
+  border-radius: 5px;
+  border: 2px solid #D1D1D8;
+  background: #FFFFFF;
+  position: relative;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+  width: 104px;
+  height: 104px;
+  box-sizing: border-box;
+}
+.product-page .rectangle-5 {
+  border-radius: 5px;
+  background: url('../assets/images/rectangle51.jpeg') 50% / cover no-repeat;
+  width: 88px;
+  height: 88px;
+}
+.product-page .img-3 {
+  border-radius: 5px;
+  border: 2px solid #D1D1D8;
+  background: #FFFFFF;
+  position: relative;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+  width: 104px;
+  height: 104px;
+  box-sizing: border-box;
+}
+.product-page .product-thumbnails {
+  border-radius: 5px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+  width: 360px;
+  box-sizing: border-box;
+}
+.product-page .group-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  box-sizing: border-box;
+}
+.product-page .container {
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.product-page {
+  background: var(--white, #FFFFFF);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 115px;
+  width: 1440px;
+  box-sizing: border-box;
+}

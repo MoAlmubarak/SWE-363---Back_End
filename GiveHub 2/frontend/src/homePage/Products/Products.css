@@ -1,0 +1,76 @@
+.products {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Adjust flex-direction */
+    align-items: center;
+    background: rgba(254, 250, 224, 0.9);
+}
+
+.products-text {
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.products-images {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+}
+
+.large-image {
+    background: linear-gradient(rgba(221, 161, 94, 0.3), rgba(221, 161, 94, 0.5)), url('../../assets/product1.webp');
+    background-size: cover;
+    background-position: center;
+    width: 950px; /* Set a specific width for the image */
+    height: 450px; /* Set a specific height for the image */
+    margin-bottom: 20px; /* Add some space between the large image and the square images */
+    border-radius: 10%;
+}
+
+.square-image {
+    background: linear-gradient(rgba(221, 161, 94, 0.3), rgba(221, 161, 94, 0.5)), url('../../assets/product2.webp');
+    background-size: cover;
+    background-position: center;
+    width: 450px; /* Set a specific width for the image */
+    height: 400px; /* Set a specific height for the image */
+    margin: 0 10px; /* Add some space between the square images */
+    border-radius: 10%;
+}
+.square-image2 {
+    background: linear-gradient(rgba(221, 161, 94, 0.3), rgba(221, 161, 94, 0.5)), url('../../assets/product3.webp');
+    background-size: cover;
+    background-position: center;
+    width: 450px; /* Set a specific width for the image */
+    height: 400px; /* Set a specific height for the image */
+    margin: 0 10px; /* Add some space between the square images */
+    border-radius: 10%;
+    margin-bottom: 40px;
+}
+
+.products-text-content {
+    text-align: center;
+    max-width: 80%; /* Adjust max-width as needed */
+}
+
+.products-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.products-text p {
+    font-size: 20px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.products-button {
+    background: #dda15e;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px; 
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}

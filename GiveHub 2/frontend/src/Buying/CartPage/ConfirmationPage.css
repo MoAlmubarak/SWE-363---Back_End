@@ -1,0 +1,24 @@
+.confirmation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use the full height of the viewport */
+    text-align: center;
+    padding: 15px; /* Provides padding around the content */
+  }
+  
+  .icon-modal-success {
+    margin-bottom: 20px; /* Space below the success icon */
+  }
+  
+  .vector-5 {
+    width: 100px; /* Control the size of the icon */
+  }
+  
+  .your-order-has-been-submitted {
+    font-size: 24px;
+    color: #bc6c25; /* Green indicating success */
+    margin-top: 20px; /* Space between the icon and the text */
+  }
+  

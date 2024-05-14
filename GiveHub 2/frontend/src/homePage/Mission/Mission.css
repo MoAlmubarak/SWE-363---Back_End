@@ -1,0 +1,25 @@
+.mission{
+    width:100%;
+    min-height: 100vh;
+    /* 200, 255, 235, 0.7 */
+    background:linear-gradient(rgba(254, 250, 224, 0.9),rgba(254, 250, 224, 0.5)), url('../../assets/mission.webp');
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-text{
+    text-align: center;
+    max-width: 800px;
+}
+.mission-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.mission-text p{
+    max-width: 470px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}

@@ -1,0 +1,96 @@
+.add-product-page {
+    background: var(--white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding-bottom: 70px; /* Consider adjusting or removing this as it might push the content down */
+    width: 100%; /* Full width of the viewport */
+    box-sizing: border-box;
+}
+
+.add-product-page .order-summary {
+    border-radius: 2px;
+    border: 1px solid var(--french-grey, #D1D1D8);
+    background: var(--white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 50px; /* Adds margin from the top of the viewport */
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Maximum width to keep the form from becoming too wide on large screens */
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
+}
+
+.add-product-page .products-details {
+    margin-bottom: 20px;
+    font-family: 'SF Pro Display', 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--space-cadet, #17183B);
+    text-align: left;
+}
+
+.add-product-page .file-upload-base {
+    border-radius: 2px;
+    border: 1px dashed #CACACA;
+    background: #FFFFFF;
+    margin: 20px 0;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-product-page .icon-frame {
+    border-radius: 50%;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.add-product-page .proceed {
+    border-radius: 4px;
+    background: var(--verdigris, #3AA39F);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-product-page .button {
+    font-family: 'SF Pro Display', 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--white, #FFFFFF);
+    text-transform: uppercase;
+}
+
+/* Responsive adjustments for better readability on smaller devices */
+@media (max-width: 768px) {
+    .add-product-page .order-summary,
+    .add-product-page .proceed {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .add-product-page .products-details,
+    .add-product-page .button {
+        font-size: 18px;
+    }
+}
+
+/* Hover effects for interactive elements */
+.add-product-page .proceed:hover {
+    background-color: darken(var(--verdigris, #3AA39F), 10%);
+}
+.uploaded-image {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Keeps aspect ratio */
+}

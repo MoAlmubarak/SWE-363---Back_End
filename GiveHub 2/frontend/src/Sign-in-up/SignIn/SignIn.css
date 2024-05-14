@@ -1,0 +1,48 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .login-box {
+    width: 350px; /* Increased width */
+    padding: 30px; /* More padding for a bigger look */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Slightly deeper shadow for more depth */
+    border-radius: 10px; /* Rounded corners */
+    background: rgba(221, 161, 94, 0.3);
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Larger margin between inputs */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px; /* More space between label and input */
+    font-size: 16px; /* Larger font size for labels */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px; /* Increased padding in input for larger appearance */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly more rounded borders for input fields */
+    font-size: 16px; /* Larger text inside inputs */
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px; /* More padding for a taller button */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Larger font size for button text */
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  

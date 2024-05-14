@@ -1,0 +1,23 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 60px; /* Added top margin to account for navbar */
+    
+  }
+  
+  .product-card {
+    width: 300px;
+    margin: 5px; /* Decreased margin to reduce space between cards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 10px;
+    background: rgba(254, 250, 224, 0.4);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
