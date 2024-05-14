@@ -1,26 +1,24 @@
 import React, { useState } from 'react';
-import './SignUp.css'; // Make sure to use the correct path if it's in another folder
+import './SignUp.css';
+import axios from 'axios';
 
-const SignUp = () => {
-  const [user, setUser] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    password: ''
-  });
+function SignUp() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setUser(prevUser => ({
-      ...prevUser,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("User Registration Data:", user);
-    // Integration with a server would typically occur here.
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post('http://localhost:4000/SignUp', {
+        firstName,
+        lastName,
+        email,
+        password,
+      })
+      .then((result) => console.log(result))
+      .catch((err) => console.log(err));
   };
 
   return (
@@ -34,8 +32,8 @@ const SignUp = () => {
               type="text"
               id="firstName"
               name="firstName"
-              value={user.firstName}
-              onChange={handleChange}
+              value={firstName}
+              onChange={(e) => setFirstName(e.target.value)}
               required
             />
           </div>
@@ -45,8 +43,8 @@ const SignUp = () => {
               type="text"
               id="lastName"
               name="lastName"
-              value={user.lastName}
-              onChange={handleChange}
+              value={lastName}
+              onChange={(e) => setLastName(e.target.value)}
               required
             />
           </div>
@@ -56,8 +54,8 @@ const SignUp = () => {
               type="email"
               id="email"
               name="email"
-              value={user.email}
-              onChange={handleChange}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
@@ -67,12 +65,14 @@ const SignUp = () => {
               type="password"
               id="password"
               name="password"
-              value={user.password}
-              onChange={handleChange}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               required
             />
           </div>
-          <button type="submit" className="btn">Sign Up</button>
+          <button type="submit" className="btn">
+            Sign Up
+          </button>
         </form>
       </div>
     </div>

@@ -9,6 +9,9 @@ const cors = require('cors');
 const exp = require('constants');
 const { type } = require('os');
 
+import UserModel from './models/users';
+const UserModel = require('./models/users');
+
 app.use(express.json());
 app.use(cors());
 
@@ -20,6 +23,15 @@ mongoose.connect("mongodb+srv://givehub:Givehub232823@cluster0.ppjjllg.mongodb.n
 app.get("/", (req, res) => {
     res.send("Express App is Running");
 })
+
+
+//SignUp
+app.post("/SignUp", (req,res) => {
+    UserModel.create(req.body)
+    .then(users => res.json(users))
+    .catch(err => res.json(err))
+})
+
 
 // Image storage engine
 const storage = multer.diskStorage({
